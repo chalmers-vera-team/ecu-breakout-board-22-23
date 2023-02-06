@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Vera ECU 2.0")(type "KiCad")(uri "${KIPRJMOD}/Vera ECU 2.0.kicad_sym")(options "")(descr ""))
+  (lib (name "old-vera-ecu")(type "Legacy")(uri "${KIPRJMOD}/ecu-board.lib")(options "")(descr ""))
+  (lib (name "old-ecu-board-cache")(type "Legacy")(uri "${KIPRJMOD}/ecu-board-cache.lib")(options "")(descr ""))
+  (lib (name "old-ecu-board-rescue")(type "Legacy")(uri "${KIPRJMOD}/ecu-board-rescue.lib")(options "")(descr ""))
+)

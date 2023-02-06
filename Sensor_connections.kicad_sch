@@ -1,0 +1,42 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e28fb39f-b162-4d47-945f-49025c2304ad)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Sensor connections" (at 101.6 21.59 0)
+    (effects (font (size 5 5) (thickness 0.5) bold) (justify left bottom))
+    (uuid 31370100-a0b9-4872-a4dc-12c911e4c9bd)
+  )
+  (text "VR2- Is connected to external pull-up and camshaft HALL sensor\nVR1- Is connected to external pull-up and crankshaft HALL sensor\nConnection can be found at: \nhttp://www.msextra.com/doc/pdf/Microsquirt_Hardware-3.3.pdf, page 50.\n\nVR2+ and VR1+ are not used in the current engine configuration\n\nOpto+/- are the inputs for coil-negative triggering on a fuel only install,\nnot used in the current engine configuration.\n\nWheel Hall Sensor and Camshaft Hall Sensor have internall pullup resistors.\nSee datasheet below:\nhttps://www.mouser.se/datasheet/2/240/Littelfuse_Hall_Effect_Sensors_55110_Datasheet.pdf-938868.pdf\n\nCrankshaft Hall Sensor does not have an internall pullup resistor.\nSee datasheet below:\nhttps://www.sonnecy-shop.com/media/pdf/86/f8/02/CYKN8-02CL0.pdf\n"
+    (at 14.478 60.706 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5e0caa2e-03d8-43c7-ba0d-1fa0579672d3)
+  )
+  (text "Spare ADC Sensors from MicroSquirt" (at 100.33 25.4 0)
+    (effects (font (size 1.6 1.6) bold) (justify left bottom))
+    (uuid 7ac5ba75-74bb-48ee-aa3f-383540a21a76)
+  )
+  (text "HALL-type Sensors" (at 15.24 25.4 0)
+    (effects (font (size 1.6 1.6) (thickness 0.4) bold) (justify left bottom))
+    (uuid 86357d51-04b2-4d96-b4bd-9ca92b1680c2)
+  )
+  (text "Flex fuel sensor is not used in current configuration.\nConnected to breakout connector for future developments\n\nThe EGO_Sensor is connected to a lambda sensor (connected externally when \nmaping the motor). The lambda sensor is also connected to the battery +12V through a \n5-Amp fuse (for pre-heating the sensor to operating temperature)."
+    (at 176.53 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9afe4bc4-1eff-4421-b8ae-237fc1817219)
+  )
+  (text "Fuel / Exhaust Sensors" (at 176.53 25.4 0)
+    (effects (font (size 1.6 1.6) bold) (justify left bottom))
+    (uuid d1749b9f-1a83-4450-82f0-6627b0bbdb8b)
+  )
+  (text "SPAREADC1 and SPAREADC2 are not used in current configuration.\nConnected to breakout connector for future developments"
+    (at 100.33 30.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e6931640-90ff-42db-999b-9d3f44985cae)
+  )
+)

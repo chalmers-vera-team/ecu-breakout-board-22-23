@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPX4250AP
+D MPX4250AP, Absolute Pressure Sensor, 250kPa 0.2 V  4.9 V Output, 6-Pin
+K
+F http://www.nxp.com/docs/en/data-sheet/MPX4250A.pdf
+$ENDCMP
+#
+#End Doc Library
